@@ -58,9 +58,10 @@ Implemented using `ImageDataGenerator`.
 ---
 
 ## Visualizations
-Accuracy and loss curves
-Confusion matrix heatmap
-Flowchart of model pipeline
+
+- Accuracy and loss curves
+- Confusion matrix heatmap
+- Flowchart of model pipeline
 
 ---
 
@@ -80,5 +81,3 @@ model = Sequential([
     Dropout(0.5),
     Dense(2, activation='softmax')
 ])
-
--
